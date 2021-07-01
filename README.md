@@ -10,6 +10,7 @@ Windowsは [Microsoft Windows - TeX Wiki](https://texwiki.texjp.org/?Microsoft%2
 環境変数Pathの確認の項目を忘れるとインストールがうまくいっても`platex`コマンドが使えないかも。
 
 ## 使い方
+どちらも必ずtexファイルがあるディレクトリで実行してください。
 ### Linux, Mac
 `index.tex`がメインのファイルです。
 コマンドラインから以下のように実行します。
@@ -21,4 +22,8 @@ sh tex.sh index.tex
 macで`dvipdfmx`が使えない場合は、パスが通っていない可能性があります（調べて）。
 
 ### Windows
-作成中...
+Linux, Mac用のやり方でも、設定している人は動く。
+一応下のようにコマンドを打てばWindows用の処理が動く（はず）。
+```shell
+tex.cmd index.tex
+```

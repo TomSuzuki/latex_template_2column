@@ -8,7 +8,7 @@ platex="platex"
 shift $(($OPTIND - 1))
 FILE=$*
 
-# platex
+# platex （2回やらないと参考文献が抜けるので）
 eval ${platex} $FILE
 eval ${platex} $FILE
 
