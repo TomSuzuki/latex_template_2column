@@ -25,5 +25,5 @@ macで`dvipdfmx`が使えない場合は、パスが通っていない可能性�
 Linux, Mac用のやり方でも、設定している人は動く。
 一応下のようにコマンドを打てばWindows用の処理が動く（はず）。
 ```shell
-tex.cmd index.tex
+./tex.cmd index.tex
 ```
